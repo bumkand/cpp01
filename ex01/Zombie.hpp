@@ -3,25 +3,23 @@
 
 #include <iostream>
 #include <cctype>
-#include <string>
 
 class Zombie
 {
 	private:
 		std::string	_name;
+		int			_index;
 
 	public:
 		Zombie();
 		~Zombie(void);
 
+		void	announce(void) const;
 		void	setName(std::string name);
-		void	announce( void ) const;
-
-
-
+		void	setIndex(int i);
 };
 
-	Zombie* newZombie( std::string name );
-	void randomChump( std::string name );
+
+Zombie* zombieHorde( int N, std::string name );
 
 #endif

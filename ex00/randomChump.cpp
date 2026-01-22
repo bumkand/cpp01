@@ -2,7 +2,9 @@
 
 void randomChump( std::string name )
 {
-	Zombie localZombic(name);
+	Zombie localZombic;
+
+	localZombic.setName(name);
 
 	localZombic.announce();
 }
