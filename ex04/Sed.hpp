@@ -17,11 +17,11 @@ class Sed
 	~Sed(void);
 
 	void		setS1(std::string s1);
-	std::string	getS1(void);
+	std::string	getS1(void) const;
 	void		setS2(std::string s2);
-	std::string	getS2(void);
+	std::string	getS2(void) const;
 
-	void execute();
+	int execute();
 };
 
 

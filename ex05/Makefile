@@ -1,0 +1,21 @@
+NAME = Harl_2.0
+CXXFLAGS = -Wall -Werror -Wextra -std=c++98 -g
+CXX = c++
+
+SRCS = main.cpp Harl.cpp
+OBJS = $(SRCS:.cpp=.o)
+
+all: $(NAME)
+
+$(NAME): $(OBJS)
+	$(CXX) $(CXXFLAGS) $(OBJS) -o $(NAME)
+
+clean:
+	rm -rf $(OBJS)
+
+fclean: clean
+	rm -rf $(NAME)
+
+re: fclean all
+
+.PHONY: all clean fclean re
