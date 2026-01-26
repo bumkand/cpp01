@@ -9,7 +9,7 @@ HumanA::HumanA(std::string str, Weapon &weapon) :
 
 HumanA::~HumanA(void)
 {
-	std::cout << "HumanA destructed" << std::endl;
+	//std::cout << "HumanA destructed" << std::endl;
 }
 
 std::string HumanA::getName(void) const

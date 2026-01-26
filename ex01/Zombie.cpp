@@ -22,5 +22,5 @@ Zombie::Zombie()
 
 Zombie::~Zombie()
 {
-	std::cout << "Zombie[" << Zombie::_index << "] " << "destructed" << std::endl;
+	//std::cout << "Zombie[" << Zombie::_index << "] " << "destructed" << std::endl;
 }

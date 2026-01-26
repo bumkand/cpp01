@@ -11,7 +11,7 @@ Zombie* zombieHorde(int N, std::string name)
 	{
 		newZombic[i].setName(name);
 		newZombic[i].setIndex(i);
-		newZombic[i].announce();
+		//newZombic[i].announce();
 	}
 	return (newZombic);
 }

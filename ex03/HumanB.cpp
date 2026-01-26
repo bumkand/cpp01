@@ -8,7 +8,7 @@ HumanB::HumanB(std::string str) :
 
 HumanB::~HumanB(void)
 {
-	std::cout << "HumanB destructed" << std::endl;
+	//std::cout << "HumanB destructed" << std::endl;
 }
 
 std::string HumanB::getName(void) const

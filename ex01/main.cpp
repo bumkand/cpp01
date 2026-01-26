@@ -7,10 +7,10 @@ int	main(void)
 
 	newZombic = zombieHorde(N, "HoBo");
 
-	//for (int i = 0; i < N; i++)
-	//{
-	//	newZombic[i].announce();
-	//}
+	for (int i = 0; i < N; i++)
+	{
+		newZombic[i].announce();
+	}
 
 
 	delete[] newZombic;
