@@ -4,7 +4,7 @@ int	main(int arc, char *arv[])
 {
 	if (arc != 4)
 	{
-		std::cerr << "Wrong amount of arguments" << std::endl;
+		std::cerr << "Error: wrong amount of arguments" << std::endl;
 		return (1);
 	}
 

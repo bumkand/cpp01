@@ -6,7 +6,7 @@ int	main(int arc, char *arv[])
 
 	if (arc != 2)
 	{
-		std::cerr << "Error: argument is missing" << std::endl;
+		std::cerr << "Error: wrong amount of arguments" << std::endl;
 		return (1);
 	}
 

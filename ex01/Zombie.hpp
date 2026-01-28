@@ -16,7 +16,9 @@ class Zombie
 
 		void	announce(void) const;
 		void	setName(std::string name);
+		std::string	getName(void) const;
 		void	setIndex(int i);
+		int		getIndex(void) const;
 };
 
 

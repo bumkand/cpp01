@@ -5,14 +5,24 @@ void	Zombie::setName(std::string name)
 	_name = name;
 }
 
+std::string	Zombie::getName(void) const
+{
+	return (_name);
+}
+
 void	Zombie::setIndex(int i)
 {
 	_index = i;
 }
 
+int	Zombie::getIndex(void) const
+{
+	return (_index);
+}
+
 void	Zombie::announce() const
 {
-	std::cout << Zombie::_name << "[" << Zombie::_index << "] Brrrrhrrhhhh" << std::endl;
+	std::cout << getName() << "[" << getIndex() << "] Brrrrhrrhhhh" << std::endl;
 }
 
 Zombie::Zombie()
